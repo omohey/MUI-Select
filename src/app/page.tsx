@@ -43,10 +43,10 @@ export default function Home() {
       <Box >
         <h3>Single Select</h3>
         <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">Day</InputLabel>
+          <InputLabel id="label">Day</InputLabel>
           <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
+            labelId="label"
+            id="select"
             value={day}
             label="Day"
             onChange={handleChange}
